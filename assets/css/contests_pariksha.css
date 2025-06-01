@@ -1,0 +1,403 @@
+body{
+    background-color: rgba(31,31,31,255)!important;
+}
+
+*{
+    font-family: Laila;
+}
+
+
+
+.details_block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid rgb(232, 77, 0);
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.timer_block{
+    background-color: rgb(232, 77, 0);
+    color: white;
+    border-radius: 5px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    min-width: 250px;
+}
+
+.timer_block h1{
+    font-size: 1.2rem;
+}
+
+.timer_block p{
+    font-size: 0.9rem;
+}
+
+
+.details_block_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    /* width: 50%; */
+    align-items: center;
+    align-content: center;
+}
+
+.mini_line{
+    width: 3px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(232, 77, 0);
+}
+
+.contest_name_details h1{
+    font-size: 1.2rem;
+}
+.contest_name_details p{
+    font-size: 0.8rem;
+}
+
+
+.contest_user_details p{
+    font-size: 0.8rem;
+}
+
+.contest_user_details h1{
+    font-size: 1.2rem;
+}
+
+
+.pariksha_block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    /* background-color: black; */
+}
+
+
+.pariksha_space{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+
+.instruction_panel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.instruction_panel h2{
+    color: rgba(255, 255, 255, 0.856)!important;
+    font-size: 2rem;
+}
+
+.set_list_inst{
+    list-style:circle;
+    color: white;
+    margin-left: 15px;
+}
+
+.set_list_inst li p{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1.4rem;
+}
+
+.best_wishes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.best_wishes h1{
+    color: rgb(255, 251, 124)!important;
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+
+.question_box_form_part{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    /* box-shadow: 0px 5px 10px rgb(232, 77, 0); */
+    /* border: 1px solid rgb(232, 77, 0); */
+}
+
+
+.question_text_contest{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.question_text_contest h1{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1.6rem;
+}
+
+.input_box_contest{
+    width: 100%;
+}
+
+.input_box_contest textarea{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border: none;
+    border-radius: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 5px;
+}
+
+
+.submit_btn{
+    background-color: rgb(232, 77, 0);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-block: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contest_form{
+    width: 100%;
+}
+
+
+.submission_confirmation{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-block: 50px;
+    margin-inline: auto;
+    align-self: center;
+}
+
+
+.submission_confirmation p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.submission_confirmation_heads p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.submission_confirmation_heads{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-block: 20px;
+}
+
+.submission_confirmation a{
+    background-color: rgb(232, 77, 0);
+    color: white;
+    /*width: 100%;*/
+    padding-block: 10px;
+    padding-inline: 25px;
+    font-size: 1rem;
+    border-radius: 2px;
+    margin-block: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 950px){
+    .details_block{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        border-bottom: 1px solid rgb(232, 77, 0);
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        gap: 20px;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .details_block_right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+        /* width: 50%; */
+        align-items: center;
+        align-content: center;
+    }
+    
+    .timer_block{
+        background-color: rgb(232, 77, 0);
+        color: white;
+        border-radius: 5px;
+        padding-inline: 20px;
+        padding-block: 5px;
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        min-width: 250px;
+    }
+    
+    .contest_name_details h1{
+        font-size: 1.2rem;
+    }
+    
+    .contest_name_details p{
+        font-size: 0.8rem;
+    }
+
+
+    .contest_user_details p{
+        font-size: 0.7rem;
+    }
+
+    .contest_user_details h1{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    
+    
+    .pariksha_space{
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .instruction_panel{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 15px;
+        padding: 20px;
+        background-color: rgb(51, 51, 51);
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+
+.instruction_panel h2{
+    color: rgba(255, 255, 255, 0.856)!important;
+    font-size: 2rem;
+}
+
+.set_list_inst{
+    list-style:circle;
+    color: white;
+    margin-left: 15px;
+}
+
+.set_list_inst li p{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1rem;
+}
+
+.best_wishes h1{
+    color: rgb(255, 251, 124)!important;
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+.question_text_contest h1{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1.1rem;
+}
+
+.input_box_contest{
+    width: 100%;
+}
+
+.input_box_contest textarea{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border: none;
+    border-radius: none;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 5px;
+}
+
+
+.submit_btn{
+    background-color: rgb(232, 77, 0);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 2px;
+    margin-block: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+}

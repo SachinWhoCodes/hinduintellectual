@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* top of navigation */
+
+.top_of_nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    background-color: rgb(232, 77, 0);
+    color: white;
+}
+
+.story_background{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.story_block{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.story_images{
+    height: 100%;
+}
+
+
+.back_btn{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    left: 25px;
+    top: 45vh;
+}
+
+.back_btn img{
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+}
+
+.back_btn img:hover{
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+}
+
+.next_btn img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(180deg);
+    opacity: 50%;
+}
+
+.next_btn img:hover{
+    height: 100%;
+    width: 100%;
+    transform: rotate(180deg);
+    opacity: 100%;
+}
+
+.next_btn{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 25px;
+    top: 45vh;
+}
+
+.close_btn{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
+.close_btn img{
+    height: 100%;
+    width: 100%;
+    /* visibility: 50%; */
+    opacity: 50%;
+}
+
+.close_btn img:hover{
+    height: 100%;
+    width: 100%;
+    /* visibility: 50%; */
+    opacity: 100%;
+}
+
+
+@media (max-width: 700px){
+    .next_btn{
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        right: 10px;
+        top: 45vh;
+    }
+
+    .back_btn{
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        left: 10px;
+        top: 45vh;
+    }
+    
+    .story_images{
+         height:auto;
+         width:100%!important;
+    }
+}

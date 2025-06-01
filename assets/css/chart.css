@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(184, 184, 184);
+}
+td {
+    border: 1px solid red;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    /* font-family: laila-regular; */
+}
+
+button:hover {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+}
+
+
+/* rgb(232, 77, 0) */
+
+
+.title_area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.title_area h3{
+    color: rgb(232, 77, 0);
+    padding-inline: 20px;
+}
+
+.title_area h1{
+    color: rgb(232, 77, 0);
+    padding-inline: 20px;
+}
+
+
+.chart_chaupayi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.chart_chaupayi h3{
+    padding-inline: 20px;
+    text-align: center;
+}
+
+.chart_chaupayi p{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

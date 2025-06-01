@@ -1,0 +1,168 @@
+.text_section{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: left;
+    background-color: white;
+    border-radius: 33px;
+    margin-inline: 20px;
+    padding-bottom: 50px;
+}
+
+
+.heading_text_center{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-weight: 900;
+    margin-top:130px;
+}
+
+
+.text_box_txt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: left;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.topic_text_left{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 900;
+}
+
+.desc_text{
+    font-size: 1.1rem;
+    color: rgb(41, 41, 41);
+    text-align: justify;
+}
+
+
+
+.login_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    padding-inline: 20px;
+}
+
+
+.login_box_white{
+    background-color: rgb(255, 116, 57);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    align-content: left;
+    gap: 10px;
+    min-width: 300px;
+}
+
+.heading_of_log{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.heading_of_log h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.heading_of_log a{
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.log_go_form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.entry_box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.entry_box input{
+    background-color: hsl(15, 100%, 90%);
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.inst_of_entry{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+}
+
+.log_go_form button{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+
+.form-fotter{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    color:black;
+    gap:8px;
+    padding-top:10px;
+}
+
+.form-fotter a{
+    color:rgb(198, 198, 255);
+}

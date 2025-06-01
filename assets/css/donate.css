@@ -1,0 +1,198 @@
+.doantion_back{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.doantion_back h1{
+    width: 100%;
+    padding-inline: 20px;
+    text-align: center;
+    color: rgb(232, 77, 0);
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.donation_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.donation_box_space{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.qr_code_box{
+    width: 30%;
+    border: 4px solid rgb(232, 77, 0);
+    border-radius: 10px;
+}
+
+.qr_code_box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#any_amount{
+    display: block;
+}
+
+#send_oneone{
+    display: none;
+}
+
+#send_fiveone{
+    display: none;
+}
+
+#send_onezeroone{
+    display: none;
+}
+
+#send_fivezeroone{
+    display: none;
+}
+
+
+.select_amt_box{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.select_amt_box h2{
+    color: rgb(232, 77, 0);
+}
+
+
+.amt_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.amt_btns button{
+    padding-inline: 20px;
+    padding-block: 7px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(232, 77, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.bank_details{
+    margin-top: 25px;
+}
+
+.upi_details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.upi_number p{
+    font-size: 1rem;
+}
+
+.upi_number button{
+    padding-inline: 5px;
+    padding-block: 2px;
+    font-size: 0.7rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.upi_id p{
+    font-size: 1rem;
+}
+
+.upi_id button{
+    padding-inline: 5px;
+    padding-block: 2px;
+    font-size: 0.7rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 900px) {
+    .donation_box_space{
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+        justify-content: flex-start;
+        gap: 30px;
+        padding: 20px;
+        background-color: white;
+        align-items: center;
+        align-content: center;
+        border-radius: 10px;
+    }
+
+    .select_amt_box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 10px;
+    }
+
+
+    .qr_code_box{
+        width: 80%;
+        border: 4px solid rgb(232, 77, 0);
+        border-radius: 10px;
+    }
+
+    .select_amt_box h2{
+        color: rgb(232, 77, 0);
+        font-size: 1rem;
+    }
+
+    .amt_btns button{
+        padding-inline: 10px;
+        padding-block: 5px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: rgb(232, 77, 0);
+        border: none;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+}

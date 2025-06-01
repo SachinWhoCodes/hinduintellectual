@@ -1,0 +1,151 @@
+.book_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+
+.book_box_space{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.book_box_left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.book_box_left img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book_box_right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.book_box_right h2{
+    color: rgb(232, 77, 0);
+    font-size: 2rem;
+}
+
+.cate_txt{
+    font-size: 0.8rem;
+}
+
+.dl_btn{
+    background-color: rgb(232, 77, 0);
+    color: white;
+    padding-inline: 25px;
+    padding-block: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pdf_read{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    display: none;
+}
+
+.pdf_read_screen{
+    width: 100%;
+    height: 100%;
+}
+
+.pdf_navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5px;
+    padding-block: 2px;
+    z-index: 1000;
+    background-color: rgb(232, 77, 0);
+    align-items: center;
+    align-content: center;
+}
+
+.pdf_navigation p{
+    color: white;
+    font-size: 1rem;
+}
+
+.pdf_navigation button{
+    padding-inline: 5px;
+    padding-block: 1px;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+
+@media (max-width: 750px) {
+    .book_box_space{
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 40px;
+        align-items: center;
+        align-content: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .book_box_left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .book_box_left img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .book_box_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 10px;
+    }
+}

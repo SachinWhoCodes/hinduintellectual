@@ -1,0 +1,430 @@
+.shield_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.shield_header_space{
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.shield_left{
+    width: 60%;
+}
+
+.shield_right{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+
+.shield_right img{
+    width: 100%;
+}
+
+.shield_heading_text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    gap: 20px;
+}
+
+
+.shield_heading_text h1{
+    font-size: 3rem;
+    color: rgb(232, 77, 0);
+}
+
+
+.circle_for_text{
+    /* height: 20px; */
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 77, 0);
+}
+
+.hindi_desc_shield{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.eng_desc_shield{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+.enrol_button_shield{
+    /* width: 100%; */
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    gap: 10px;
+    padding: 5px;
+    border: 2px solid rgb(232, 77, 0);
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+
+.enrol_button_shield a{
+    padding-inline: 20px;
+    padding-block: 5px;
+    text-decoration: none;
+    background-color: rgb(232, 77, 0);
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+
+.enrol_button_shield p{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.enrol_button_shield button{
+    padding-inline: 20px;
+    padding-block: 5px;
+    text-decoration: none;
+    background-color: rgb(232, 77, 0);
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+}
+
+
+
+@media (max-width: 1000px){
+    .shield_heading_text h1{
+        font-size: 2rem;
+        color: rgb(232, 77, 0);
+    }
+
+    .hindi_desc_shield{
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+    
+    .eng_desc_shield{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .enrol_button_shield a{
+        padding-inline: 20px;
+        padding-block: 5px;
+        text-decoration: none;
+        background-color: rgb(232, 77, 0);
+        color: white;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .enrol_button_shield p{
+        font-size: 0.8rem;
+    }
+    
+    
+    .enrol_button_shield button{
+        padding-inline: 20px;
+        padding-block: 5px;
+        text-decoration: none;
+        background-color: rgb(232, 77, 0);
+        color: white;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        outline: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 700px){
+
+
+    .shield_header_space{
+        width: 96%;
+        display: flex;
+        padding: 20px;
+        background-color: white;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 30px;
+        align-items: flex-start;
+        align-content: flex-start;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .enrol_button_shield p{
+        font-size: 0.7rem;
+    }
+
+    .shield_left{
+        width: 100%;
+    }
+    
+    .shield_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .shield_right img{
+        width: 80%;
+    }
+
+    .shield_heading_text h1{
+        font-size: 2rem;
+        color: rgb(232, 77, 0);
+    }
+
+    .hindi_desc_shield{
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+    
+    .eng_desc_shield{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .enrol_button_shield a{
+        padding-inline: 20px;
+        padding-block: 5px;
+        text-decoration: none;
+        background-color: rgb(232, 77, 0);
+        color: white;
+        border-radius: 3px;
+        font-size: 1rem;
+        text-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .enrol_button_shield button{
+        padding-inline: 20px;
+        padding-block: 5px;
+        text-decoration: none;
+        background-color: rgb(232, 77, 0);
+        color: white;
+        border-radius: 3px;
+        font-size: 1.2rem;
+        outline: none;
+        border: none;
+        text-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/* account */
+
+
+.account_section{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.account_section_space{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.user_profile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.user_profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(232, 77, 0);
+}
+
+.user_detailing h1{
+    font-size: 3rem;
+}
+
+.user_detailing{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 5px;
+}
+
+.user_detailing p{
+    font-size: 0.8rem;
+}
+
+.track_journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.track_journey h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.days_to_track{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr))!important;
+    gap: 5px; /* Space between grid items */
+}
+
+.day_card_checked{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(232, 77, 0);
+    color: white;
+    border: 1px solid rgb(232, 77, 0);
+}
+
+.day_card_unchecked{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(232, 77, 0);
+}
+
+
+.acc_login_btn{
+    padding-inline:15px;
+    padding-block:5px;
+    background-color:#d7d7d7;
+    color:#000c46;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.logout_btn{
+    /*width: 100%;*/
+    text-align: left;
+    align-self: left;
+    margin-block: 25px;
+    font-size: 0.8rem;
+    color: red;
+    border: 1px solid black;
+    padding-inline: 10px;
+    padding-block: 2px;
+}
+
+@media (max-width: 700px){
+    .account_section_space{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .user_profile img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid rgb(232, 77, 0);
+    }
+    
+    .user_detailing h1{
+        font-size: 1.2rem;
+    }
+
+    .user_detailing p{
+        font-size: 0.7rem;
+    }
+
+    .track_journey h1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .track_journey p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
