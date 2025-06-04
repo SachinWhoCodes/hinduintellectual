@@ -17,7 +17,7 @@ $database = "u683255285_hindu_int";
 <html lang="en">
 <head>
     <?php
-        $pageTitle = "Hindu Aarti Collection | Ganesh, Lakshmi, Durga Aarti & More";
+        $pageTitle = "Hindu Aartis Collection | Ganesh, Lakshmi, Durga Aarti & More";
         $pageDescription = "Discover the divine Aartis of various Hindu deities like Ganesh, Lakshmi, Durga, Shiva and others in our sacred Sanatan Aarti collection.";
         $pageUrl = "https://www.hinduintellectual.com/aarti.php";
         $pageImage = "https://www.hinduintellectual.com/assets/home_page_images/arti.png";
