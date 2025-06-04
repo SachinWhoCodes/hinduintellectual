@@ -37,7 +37,7 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
 
 
 
-
+    $newId_track;
     // Check if the link already exists
     $check_sql = "SELECT id, link FROM question_data WHERE link LIKE '$base_link%'";
     $check_result = $conn->query($check_sql);
@@ -51,6 +51,7 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
             $row = $latest_id_result->fetch_assoc();
             $latest_id = $row['latest_id'] + 1; // Get the next ID
             $link = $base_link . $latest_id;    // Append ID to the link
+            $newId_track = $latest_id;
         } else {
             $link = $base_link . "1"; // Default to 1 if no IDs exist
         }
@@ -99,10 +100,10 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
     \$file_path = __FILE__;
     
     // Get the published time (file creation time)
-    \$published_time = filectime($file_path);
+    \$published_time = filectime(\$file_path);
     
     // Get the modified time (file last modification time)
-    \$modified_time = filemtime($file_path);
+    \$modified_time = filemtime(\$file_path);
     
     // Format both times in ISO 8601 format with Indian time zone (IST)
     date_default_timezone_set('Asia/Kolkata');
@@ -115,13 +116,13 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
 <head>
 
     <?php
-    
-        \$page_title = {$ques_text};
+        \$newId_track = {$newId_track};
+        \$page_title = "{$ques_text}";
         \$page_desc = "Find answers to your Sanatan Dharma queries with HinduIntellectual's search feature. Accurate insights from Hindu scriptures at your fingertips. Read the answer of {$ques_text} on Hindu Intellectual";
         \$page_img = "og_images/hindu.jpg";
         \$page_url = "https://www.hinduintellectual.com/gyan/{$newFileName}";
-        \$published = {$published};
-        \$modified = {$modified};
+        \$published = {\$published};
+        \$modified = {\$modified};
             
     ?>
     
@@ -138,7 +139,7 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
 
     <?php include("../includes/header.php") ?>  
 
-    <?php include("../includes/story.php") ?>  
+    <?php include("../includes/story_post.php") ?>  
 
 
 
@@ -189,6 +190,9 @@ $base_link = str_replace(' ', '-', $ques_text_copy);
 
 </script>
 <script src="../assets/js/navbar.js"></script>
+
+<?php include("../includes/count_views.php") ?> 
+
 </html>
 EOD;
 
